@@ -610,11 +610,7 @@ function updateUrlWithText(text) {
 shape.init();
 
 const textParam = getUrlParameter("text");
-const displayText = textParam || "DaintyDust";
-
-if (!textParam) {
-    updateUrlWithText(displayText);
-}
+const displayText = textParam || "Nick";
 
 shape.print(displayText);
 
