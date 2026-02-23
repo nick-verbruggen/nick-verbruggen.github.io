@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DaintyDust - Snake Game</title>
+    <link rel="icon" href="assets/images/Profile Circle.png" type="image/jpg" />
+    <link rel="stylesheet" href="assets/base.css" />
+    <link rel="stylesheet" href="assets/snake/snake.css" />
+    <script src="assets/redirect.js"></script>
+  </head>
+  <body>
+    <a href="/" class="nav-back">← Back to Home</a>
+
+    <div class="page-content">
+      <h1 class="page-title">Snake Game</h1>
+      <div class="game-container">
+        <div class="score" id="score">Score: 0</div>
+        <canvas id="snake-game" width="600" height="400"></canvas>
+        <button id="start-button" class="game-button">Start Game</button>
+        <div id="game-over" class="game-over">
+          <p>Game Over!</p>
+          <button id="respawn-button" class="game-button">Respawn</button>
+        </div>
+        <div class="controls">Use arrow keys or WASD to control the snake</div>
+      </div>
+    </div>
+    <script src="assets/snake/snake.js"></script>
+    <script src="assets/pixelbackground.js"></script>
+  </body>
+</html>
